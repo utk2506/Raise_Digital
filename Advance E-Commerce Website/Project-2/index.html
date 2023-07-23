@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitShop|Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Product.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" alt=""></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give your workout<br>a new style!</h1>
+                    <p>There's only one thing in the world <br> I want and that is fitness.</p>
+                    <a href="Product.html" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------- Featured catagories ----->
+    <div class="categories">
+        <h2 class="title">Our Brands Product</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------- Featured product ----->
+    <div class="small-container">
+        <h2 class="title">Featured Proucts</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="products-detail.html"><img src="images/product-1.jpg" alt=""></a>
+                <a href="products-detail.html">
+                    <h4>Jahap Creation Thick Tempered Glass LCD Display weight machine</h4>
+                </a>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;500</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>lifecare products Pvc 10 KG Home Gym Combo (Weight 2.5 kg X 4= 10 kg)</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;400</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4"style="height: 500px; width: 200px;">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Noise ColorFit Caliber 2 with 1.83'' display Up to 12 Day Battery </h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>&#8377;1000</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4"style="height: 500px; width: 200px;">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Adrenex by Anti Skid Yoga Mat Purple 4 mm Yoga Mat</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;200</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h2 class="title">Latest Proucts</h2>
+        <div class="row">
+            <div class="col-4"style="height: 500px; width: 200px;">
+                <img src="images/product-5.jpg" alt="">
+                <h4>RED TAPE Running Shoes For Men</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;1200</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4"style="height: 500px; width: 200px;">
+                <img src="images/product-6.jpg" alt="">
+                <h4>Carbonn Cloth
+                    Men Regular Fit Self Design Sports Shirt</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;500</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4"style="height: 500px; width: 200px;">
+                <img src="images/product-7.jpg" alt="">
+                <h4>HRX 20 kg Portable Blue 20 kg Curl and Dumbbell Rods</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>&#8377;2000</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4"style="height: 500px; width: 200px;">
+                <img src="images/product-8.jpg" alt="">
+                <h4>RPM Fitness RPM1001 Airbike with Back Seat </h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;2000</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4"style="height: 500px; width: 200px;">
+                <img src="images/product-9.jpg" alt="">
+                <h4>Durafit Waltz Elliptical Cross Trainer for Home Use with Two-Way Adjustable Seat Cross Trainer
+                    (Black)</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;10000</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4"style="height: 500px; width: 200px;">
+                <img src="images/product-10.jpg" alt="">
+                <h4>RPM Fitness RPM717 (2 HP) Carbon Motorized with Diet Plan, Personal Trainer, Doctor Consultation </h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;12000</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-4"style="height: 500px; width: 200px;">
+                <img src="images/product-11.jpg" alt="">
+                <h4>effingo Double Spring Waist Trimmer for Fat Burning & Weight loss Exercises(Multicolor) </h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>&#8377;189</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-4" style="height: 500px; width: 200px;">
+                <img src="images/product-12.jpg" alt="">
+                <h4>IRIS Fitness Multifunctional 14 in 1 Weight Bench Adjustable Multipurpose Fitness Bench colour black</h4>
+                <div class="ratings">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377;1200</p>
+                <div>
+                    <p><button class="cart1">Add to Cart</button>
+                        <button class="cart1">Add to wishlist</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------ Offer----------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on FitShop</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display
+                        with adjustable brightness, so everithing is clear as can bs</small>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    Testimonial    -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Finally got 50kg set after long wait as it was booked on 12th june & recived on 8th July i.e 26 Days to delivered.
+                        But late wait gives me 100% satisfaction </p>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images\f0210bae-ccae-4ca4-a56a-5a3a926f15b6-modified.png" alt="">
+                    <h3>Utkarsh Kumar </h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industries. Lorem ipsum has been
+                        the industry's standard dummy text ever.</p>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-2.png" alt="">
+                    <h3>Mike Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industries. Lorem ipsum has been
+                        the industry's standard dummy text ever.</p>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-3.png" alt="">
+                    <h3>Mable Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    Brands   -->
+    <br>
+    <div class="our">
+        <h2>Our Partners</h2>
+    </div>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images\logo-noise.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images\logo-mb.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images\logo-philips.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images\logo-xiaomi.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images\logo-realme.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    Footer   -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download Our app for android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <a href="#"><img src="images/play-store.png" alt=""></a>
+                        <a href="#"><img src="images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="index.html"><img src="images/logo.png" class="imglog"></a>
+                    <p>Our purpose is to Sustainably make the pleasure and benefits of sports Accessible to the many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul class="col04">
+                        <li><a href="https://www.facebook.com/profile.php?id=100008671320321"><img
+                                    src="images\Facebook_f_logo_(2019).svg.png" alt="" id="col14"></a></li>
+                        <li><a href="https://www.instagram.com/vatts_utkarsh?r=nametag"><img src="images\insta.png"
+                                    alt="" id="col15"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCKAUXHbIrjlHi72oJX1QS3w"><img
+                                    src="images\YouTube_full-color_icon_(2017).svg.png" alt="" id="col16"></a></li>
+                        <li><a href="https://www.linkedin.com/in/utkarsh-kumar-58a586200"><img src="images\link.png"
+                                    alt="" id="col17"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 </p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

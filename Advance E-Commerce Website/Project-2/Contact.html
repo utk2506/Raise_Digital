@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact -FitShop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 20px;
+
+            border-radius: 5px;
+            margin: 7px;
+            border: none;
+            border-bottom: 2px solid rgb(0, 0, 0);
+        }
+
+        input[type="submit"] {
+            color: rgb(255, 255, 255);
+            background-color: #ff523b;
+           
+            padding: 0px 2px;
+            
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color:#d36556;
+        }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" alt=""></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+    </div>
+
+
+    <div class="contact-page">
+        <div class="content3">
+            <div class="unline">
+                <h1>Contact Form</h1>
+            </div>
+
+            <form action="">
+
+                <p class="requird" id="ste">Required Fileds are follwed by *</p>
+
+                <input type="text" name="name" placeholder="Enter the name *" required="">
+
+
+                <input type="email" name="email" placeholder="Enter the Valid Email id *" required="">
+
+
+
+                <textarea name="message" id="message" cols="10" rows="4" placeholder="Enter the Message *"
+                    required=""></textarea>
+
+
+                <p class="requird"><input type="submit" value="Submit"></p>
+
+            </form>
+            <div class="footer-col-12" >
+                <h3 class="unline" id="uuuu">Follow Us</h3>
+                <ul class="col04">
+                    <li><a href="https://www.facebook.com/profile.php?id=100008671320321"><img
+                                src="images\Facebook_f_logo_(2019).svg.png" alt="" id="col14"></a></li>
+                    <li><a href="https://www.instagram.com/vatts_utkarsh?r=nametag"><img src="images\insta.png"
+                                alt="" id="col15"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCKAUXHbIrjlHi72oJX1QS3w"><img
+                                src="images\YouTube_full-color_icon_(2017).svg.png" alt="" id="col16"></a></li>
+                    <li><a href="https://www.linkedin.com/in/utkarsh-kumar-58a586200"><img src="images\link.png"
+                                alt="" id="col17"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!--    Footer   -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download Our app for android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <a href="#"><img src="images/play-store.png" alt=""></a>
+                        <a href="#"><img src="images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                    <p>Our purpose is to Sustainably make the pleasure and benefits of sports Accessible to the many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul class="col04">
+                        <li><a href="https://www.facebook.com/profile.php?id=100008671320321"><img
+                                    src="images\Facebook_f_logo_(2019).svg.png" alt="" id="col14"></a></li>
+                        <li><a href="https://www.instagram.com/vatts_utkarsh?r=nametag"><img src="images\insta.png"
+                                    alt="" id="col15"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCKAUXHbIrjlHi72oJX1QS3w"><img
+                                    src="images\YouTube_full-color_icon_(2017).svg.png" alt="" id="col16"></a></li>
+                        <li><a href="https://www.linkedin.com/in/utkarsh-kumar-58a586200"><img src="images\link.png"
+                                    alt="" id="col17"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 </p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>

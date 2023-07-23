@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart -FitShop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" alt=""></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!--    Cart item detail  -->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <a href="products-detail.html"><img src="images/buy-1.jpg" alt=""></a>
+                        <div class="">
+                            <p>IRIS Fitness Multifunctional 14 in 1 Weight Bench Adjustable Multipurpose Fitness Bench</p>
+                            <small>Price: &#8377;3000</small>
+                            <br>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;3000</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-2.jpg" alt="">
+                        <div class="">
+                            <p>effingo Double Spring Waist Trimmer for Fat Burning & Weight loss Exercises(Multicolor)
+                                Ab Exerciser (Multicolor)</p>
+                            <small>Price: &#8377;189</small>
+                            <br>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;189</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-3.jpg" alt="">
+                        <div class="">
+                            <p>Adrenex Anti Skid Yoga Mat Purple 4 mm Yoga Mat</p>
+                            <small>Price: &#8377;200</small>
+                            <br>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>&#8377;200</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>&#8377;3389</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>&#8377;500</td>
+                </tr>
+                <tr>
+                    <td>Delivery Charges</td>
+                    <td>&#8377;0</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>&#8377;3889</td>
+                </tr>
+            </table>
+            
+        </div>
+       <div> <p><button class="btn">Proceed to Next</button></p></div>
+    </div>
+    <!--    Footer   -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download Our app for android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <a href="#"><img src="images/play-store.png" alt=""></a>
+                        <a href="#"><img src="images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                    <p>Our purpose is to Sustainably make the pleasure and benefits of sports Accessible to the many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul class="col04">
+                        <li><a href="https://www.facebook.com/profile.php?id=100008671320321"><img
+                                    src="images\Facebook_f_logo_(2019).svg.png" alt="" id="col14"></a></li>
+                        <li><a href="https://www.instagram.com/vatts_utkarsh?r=nametag"><img src="images\insta.png"
+                                    alt="" id="col15"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCKAUXHbIrjlHi72oJX1QS3w"><img
+                                    src="images\YouTube_full-color_icon_(2017).svg.png" alt="" id="col16"></a></li>
+                        <li><a href="https://www.linkedin.com/in/utkarsh-kumar-58a586200"><img src="images\link.png"
+                                    alt="" id="col17"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 </p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
